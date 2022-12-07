@@ -1,11 +1,13 @@
 0)  Préface :
 
+    Cet API permet de lister et de pouvoir CRUD sur une liste de magasin stockées sur une base de donnée SQL et repertoriés en différentes categories (hypermarché, mode, bricolage, etc ...).
+    
     Avant toute chose, veillez à insérer des identifiants de connexions correctes
     pour la connexion à la base de donnée dans le fichier "Database.php".
 
-    Uploadez ensuite la base de donnée ( le fichier sql "apirest.sql") située à la racine du répertoire dans votre SGBD.
+    Uploadez ensuite cette base de donnée ( le fichier sql "apirest.sql") qui située à la racine du répertoire dans votre SGBD.
     
-    NB: LLe contenu du fichier .htaccess situé à la racine de ce répertoire permet de modifier l'url de façon à ce qu'il soit plus lisible pour le client.
+    NB: Le contenu du fichier .htaccess situé à la racine de ce répertoire permet de modifier l'url de façon à ce qu'il soit plus lisible pour le client.
 
 
 1) Récupérer des informations sur un ou plusieurs magasins (GET) :
