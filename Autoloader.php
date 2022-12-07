@@ -17,7 +17,8 @@ class Autoloader
         if (file_exists(__DIR__ . "/" . $class . ".php")) {
             require __DIR__ . "/" . $class . ".php";
         } else {
-            die("fail load class bg");
+            http_response_code(404);
+            die("Error when loading '{$class}' class ...");
         }
     }
 
